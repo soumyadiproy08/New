@@ -3,7 +3,7 @@
 
 
 # It returns location of x in given array arr
-def binarySearch(arr, l, r, x):
+def Binary_Search(arr, l, r, x):
 
 	while l <= r:
 
@@ -32,7 +32,7 @@ if __name__ == '__main__':
 	x = 10
 
 	# Function call
-	result = binarySearch(arr, 0, len(arr)-1, x)
+	result = Binary_Search(arr, 0, len(arr)-1, x)
 	if result != -1:
 		print("Element is present at index", result)
 	else:
